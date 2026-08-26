@@ -1,0 +1,17 @@
+{
+  "name": "Guevarra Studio",
+  "short_name": "Guevarra Studio",
+  "description": "Web design and development studio creating custom, responsive websites for small businesses and entrepreneurs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
