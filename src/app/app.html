@@ -554,4 +554,16 @@
 
   </footer>
 
+  @if (cookieBannerVisible()) {
+    <div class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie notice">
+      <div class="cookie-content">
+        <div>
+          <strong>This website uses cookies.</strong>
+          <p>We use cookies and analytics tools to understand traffic, improve website performance, and measure engagement.</p>
+        </div>
+        <button type="button" class="cookie-button" aria-label="Accept cookies" (click)="acceptCookies()">Accept</button>
+      </div>
+    </div>
+  }
+
 </div>

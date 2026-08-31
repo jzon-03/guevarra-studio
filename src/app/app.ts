@@ -25,8 +25,13 @@ export class App {
   currentYear = new Date().getFullYear();
 
   menuOpen = false;
+  readonly cookieBannerVisible = signal(true);
 
   toggleMenu(): void {
     this.menuOpen = !this.menuOpen;
+  }
+
+  acceptCookies(): void {
+    this.cookieBannerVisible.set(false);
   }
 }
